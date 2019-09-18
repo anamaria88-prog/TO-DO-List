@@ -1,0 +1,126 @@
+.box {
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	transform: translate(-120% , -50%);
+}
+
+
+.header h1 {
+	font-size: 80px;
+    text-align: center;
+    color: #CD7A6A;
+    position: absolute;
+    top: -100px;
+    left: 100px;
+    font-weight: 400;
+    color: rgba(205, 122, 106, 0.6);
+}
+
+.main-todo-List {
+	position: absolute;
+	border:1px solid grey;
+	min-width: 490px;
+	max-width: 550px;
+	display: inline-block;
+	box-shadow: 0 25px 50px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.new-item {
+	border-left: none;
+}
+
+.buttons {
+	float: right;
+}
+
+.list-item {
+	list-style: none;
+	color:grey;
+	display: flex;
+	padding: 7px;
+	border-bottom-style: inset;
+}
+
+.todo-items {
+	display: contents;
+
+}
+
+.input-check {
+	margin-top: 6px;
+
+}
+
+.list-item.completed span {
+	text-decoration: line-through;
+	color: grey;
+}
+
+.delete-item {
+	width: 15px;
+    line-height: 0px;
+    padding: 0;
+    margin-top: 2px;
+    background: none;
+    border:0;
+    color: #CD7A6A;
+    font-size:20px;
+}
+
+.span-item {
+	padding-left: inherit;
+	width: 90%;
+	color: black;
+}
+
+.show-btn {
+	display: none;
+}
+
+.input-group-text {
+	background: none;
+    border-right: none;
+    padding: 12px;
+}
+
+
+.icon {
+	position: absolute;
+	top: 10px;
+	left: 5px;
+}
+
+.icon-hover {
+	color: rgba(0,0,0,0.2)
+}
+
+.items-left {
+	margin-left: 10px;
+}
+
+.items-left:after {
+	content: 'items left'
+}
+
+.checkbox-round {
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.checkbox-round:checked {
+  background-color: #66bb6a;
+  border-color: #66bb6a;
+}
+
+
+
+
